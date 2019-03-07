@@ -1,6 +1,7 @@
 {
   "name": "cassino-score",
   "version": "0.1.0",
+  "homepage": "https://jkelstrup.github.io/cassino-score-dashboard",
   "private": true,
   "dependencies": {
     "firebase": "^4.12.1",
