@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  // height: 100%;
+  // height: calc(100% + 10px);
+  // background: url('img/bg.png');
+  background: lightgray;
+  position: fixed;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
